@@ -23,6 +23,9 @@ More chapters can be added as the challenge progresses.
 ├── Day_02_variables/
 │   ├── Readme.md
 │   └── script.js
+├── Day_03_data_types/
+│   ├── Readme.md
+│   └── script.js
 └── Readme.md
 ```
 
@@ -53,7 +56,7 @@ Each chapter contains:
 
 - [x] Chapter 01 - Hello, Console
 - [x] Chapter 02 - Variables
-- [ ] Chapter 03
+- [x] Chapter 03 - Data Types
 - [ ] Chapter 04
 - [ ] Chapter 05
 - [ ] Chapter 06
