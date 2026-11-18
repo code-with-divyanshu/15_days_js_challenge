@@ -6,10 +6,11 @@ A practical JavaScript learning challenge based on the Chai aur Code course by H
 
 The repository currently contains two chapters:
 
-| Chapter | Topic          | Concepts                                                                     |
-| ------- | -------------- | ---------------------------------------------------------------------------- |
-| 01      | Hello, Console | `console.log`, `console.warn`, `console.table`, `console.count`, and timers  |
-| 02      | Variables      | `let`, `const`, `var`, scope, mutation, hoisting, and the temporal dead zone |
+| Chapter | Topic          | Concepts                                                                       |
+| ------- | -------------- | ------------------------------------------------------------------------------ |
+| 01      | Hello, Console | `console.log`, `console.warn`, `console.table`, `console.count`, and timers    |
+| 02      | Variables      | `let`, `const`, `var`, scope, mutation, hoisting, and the temporal dead zone   |
+| 03      | Data Types     | `typeof`, `null`, arrays, objects, deep copy,shallow copy, and equality checks |
 
 More chapters can be added as the challenge progresses.
 
