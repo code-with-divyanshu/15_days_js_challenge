@@ -11,6 +11,7 @@ The repository currently contains two chapters:
 | 01      | Hello, Console | `console.log`, `console.warn`, `console.table`, `console.count`, and timers    |
 | 02      | Variables      | `let`, `const`, `var`, scope, mutation, hoisting, and the temporal dead zone   |
 | 03      | Data Types     | `typeof`, `null`, arrays, objects, deep copy,shallow copy, and equality checks |
+| 04      | Numbers & Math | `Math` methods, artithmetic, floating-point operations, and parsing            |
 
 More chapters can be added as the challenge progresses.
 
@@ -25,6 +26,9 @@ More chapters can be added as the challenge progresses.
 │   ├── Readme.md
 │   └── script.js
 ├── Day_03_data_types/
+│   ├── Readme.md
+│   └── script.js
+├── Day_04_numbers_&_math/
 │   ├── Readme.md
 │   └── script.js
 └── Readme.md
@@ -58,7 +62,7 @@ Each chapter contains:
 - [x] Chapter 01 - Hello, Console
 - [x] Chapter 02 - Variables
 - [x] Chapter 03 - Data Types
-- [ ] Chapter 04
+- [x] Chapter 04 - Numbers & Math
 - [ ] Chapter 05
 - [ ] Chapter 06
 - [ ] Chapter 07
