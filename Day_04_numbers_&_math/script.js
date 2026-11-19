@@ -25,8 +25,12 @@ export function splitBill(total, people) {
   };
 }
 
+console.log("--- Task 1: whole-rupee shares and what is left ---");
+
 console.log(splitBill(125, 3)); // { each: 41, left: 2 }
 console.log(splitBill(120, 3)); // { each: 40, left: 0 }
+
+console.log("\n");
 
 // Task 2: the number of cups from typed text
 //
@@ -56,11 +60,15 @@ export function parseCups(text) {
   return cups;
 }
 
+console.log("--- Task 2: the number of cups from typed text ---");
+
 console.log(parseCups("3 cups")); // 3
 console.log(parseCups("  4 ")); // 4
 console.log(parseCups("2.5")); // 2
 console.log(parseCups("two")); // 0
 console.log(parseCups("")); // 0
+
+console.log("\n");
 
 // Task 3 (interview question): 0.1 + 0.2 that comes out as 0.3
 //
@@ -84,9 +92,13 @@ export function addMoney(a, b) {
   return Number((a + b).toFixed(2));
 }
 
+console.log("--- Task 3: 0.1 + 0.2 that comes out as 0.3 ---");
+
 console.log(addMoney(0.1, 0.2)); // 0.3
 console.log(addMoney(19.99, 0.01)); // 20
 console.log(addMoney(40, 25)); // 65
+
+console.log("\n");
 
 // Task 4: a price with two decimals
 //
@@ -106,9 +118,13 @@ export function formatPrice(amount) {
   return "₹" + amount.toFixed(2);
 }
 
+console.log("--- Task 4: a price with two decimals ---");
+
 console.log(formatPrice(42.5)); // '₹42.50'
 console.log(formatPrice(40)); // '₹40.00'
 console.log(formatPrice(12.345678)); // '₹12.35'
+
+console.log("\n");
 
 // Task 5: whole numbers from 1 to 20
 //
@@ -128,6 +144,8 @@ export function isValidQty(qty) {
   return Number.isInteger(qty) && qty >= 1 && qty <= 20;
 }
 
+console.log("--- Task 5: whole numbers from 1 to 20 ---");
+
 console.log(isValidQty(2)); // true
 console.log(isValidQty(20)); // true
 console.log(isValidQty(0)); // false
@@ -136,3 +154,5 @@ console.log(isValidQty(-3)); // false
 console.log(isValidQty(2.5)); // false
 console.log(isValidQty(NaN)); // false
 console.log(isValidQty("2")); // false
+
+console.log("\n");

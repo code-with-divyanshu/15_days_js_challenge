@@ -25,6 +25,12 @@ export function logOrder(customer, item) {
   console.log("Order:", item, "for", customer);
 }
 
+console.log("--- Task 1: one line for each new order ---");
+
+logOrder("Ravi", "masala chai"); // Order: masala chai for Ravi
+
+console.log("\n");
+
 // Task 2: warn when an item runs low
 //
 // When fewer than 10 are left, print a warning with
@@ -52,6 +58,13 @@ export function warnLowStock(item, left) {
   return false;
 }
 
+console.log("--- Task 2: warn when an item runs low ---");
+
+console.log(warnLowStock("ginger", 4)); // true
+console.log(warnLowStock("sugar", 25)); // false
+
+console.log("\n");
+
 // Task 3: the menu as a two-column table
 //
 // Print the menu you are given with one console.table call that
@@ -72,6 +85,12 @@ export function showMenu(menu) {
   console.table(menu, ["name", "price"]);
 }
 
+console.log("--- Task 3: the menu as a two-column table ---");
+
+showMenu([{ name: "Masala chai", price: 40, stock: 120 }]); // shows Masala chai and 40, not 120
+
+console.log("\n");
+
 // Task 4: count every ring of the bell
 //
 // Every call counts one ring with console.count under the
@@ -88,6 +107,14 @@ export function showMenu(menu) {
 export function ringBell() {
   console.count("order bell");
 }
+
+console.log("--- Task 4: count every ring of the bell ---");
+
+ringBell(); // order bell: 1
+ringBell(); // order bell: 2
+ringBell(); // order bell: 3
+
+console.log("\n");
 
 // Task 5: time the 4 pm rush and keep its result
 //
@@ -113,3 +140,7 @@ export function timeRush(work) {
   console.timeEnd("rush hour");
   return result;
 }
+
+console.log("--- Task 5: time the 4 pm rush and keep its result ---");
+
+timeRush(() => 42); // rush hour: 0.008ms (it changes every run)

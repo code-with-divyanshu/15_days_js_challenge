@@ -26,6 +26,16 @@ export function nextToken() {
   return lastToken;
 }
 
+console.log("--- Task 1: fix the token machine ---");
+
+console.log(lastToken); // 0
+console.log(nextToken()); // 1
+console.log(nextToken()); // 2
+console.log(nextToken()); // 3
+console.log(lastToken); // 3
+
+console.log("\n");
+
 // Today's menu. Other screens hold on to this exact array.
 export let menu = ["masala chai", "cutting chai", "bun maska"];
 
@@ -52,6 +62,13 @@ export function addToMenu(item) {
   return menu.length;
 }
 
+console.log("--- Task 2: add to the same menu ---");
+
+console.log(addToMenu("Parle-G")); // 4
+console.log(addToMenu("filter coffee")); // 5
+
+console.log("\n");
+
 // Task 3: fix the regular's price tag
 //
 // Everyone sees the menu price. Regulars also see their own
@@ -77,6 +94,14 @@ export function priceTag(item, isRegular) {
   }
   return `${item.name}: ₹${price}${note}`;
 }
+
+console.log("--- Task 3: fix the regular's price tag ---");
+
+const chai = { name: "Masala chai", price: 40 };
+console.log(priceTag(chai, false)); // 'Masala chai: ₹40'
+console.log(priceTag(chai, true)); // 'Masala chai: ₹40 (you pay ₹35)'
+
+console.log("\n");
 
 // Task 4: which lines work and which throw
 //
@@ -112,6 +137,28 @@ export const scopePredictions = {
   d: "45",
 };
 
+console.log("--- Task 4: which lines work and which throw ---");
+if (true) {
+  var ginger = "fresh";
+}
+console.log(ginger); // 'fresh'
+
+console.log("\n");
+
+// if (true) {
+//   let tulsi = "fresh";
+// }
+
+// console.log(tulsi); // ReferenceError
+
+// const price = 40;
+// // price = 45; // TypeError
+// console.log(price); // 40
+
+// const item = { name: "Masala chai", price: 40 };
+// item.price = 45;
+// console.log(item.price); // 45
+
 // Task 5 (interview question): reading a name before its line
 //
 // Same rules: as a string, what console.log prints, or the
@@ -143,3 +190,18 @@ export const hoistingPredictions = {
   c: "undefined",
   d: "ReferenceError",
 };
+
+console.log("--- Task 5: reading a name before its line ---");
+
+console.log(token); // undefined
+var token = 7;
+
+// console.log(order); // ReferenceError
+// let order = "masala chai";
+
+// console.log(typeof neverDeclared); // undefined
+
+// console.log(typeof rider); // ReferenceError
+// let rider = "Ravi";
+
+console.log("\n");

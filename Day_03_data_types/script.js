@@ -29,6 +29,15 @@ export function describeValue(value) {
   return typeof value;
 }
 
+console.log("--- Task 1: the type of any value ---");
+
+console.log(describeValue(true)); // 'boolean'
+console.log(describeValue(null)); // 'null'
+console.log(describeValue([1, 2])); // 'array'
+console.log(describeValue([])); // 'array'
+
+console.log("\n");
+
 // Task 2 (interview question): what typeof really says
 //
 // Predict what each typeof below returns, and export the eight
@@ -63,6 +72,19 @@ export const typeofPredictions = [
   "object",
 ];
 
+console.log("--- Task 2: what typeof really says ---");
+
+console.log(typeof null); // 'object'
+console.log(typeof []); // 'object'
+console.log(typeof NaN); // 'number'
+console.log(typeof undefined); // 'undefined'
+console.log(typeof function () {}); // 'function'
+console.log(typeof "Masala chai"); // 'string'
+console.log(typeof 42n); // 'bigint'
+console.log(typeof { item: "Bun maska" }); // 'object'
+
+console.log("\n");
+
 // Task 3: a real copy with the next id
 //
 // Return a new order with the same customer, the same items and
@@ -86,6 +108,14 @@ export function repeatOrder(order) {
   return { ...order, id: order.id + 1, items: [...order.items] };
 }
 
+console.log("--- Task 3: a real copy with the next id ---");
+
+const order1 = { id: 7, customer: "Anjali", items: ["masala chai"] };
+const order2 = repeatOrder(order1);
+console.log(order2); // { id: 8, customer: 'Anjali', items: ['masala chai'] }
+
+console.log("\n");
+
 // Task 4: same item and same qty
 //
 // Return true when both orders are for the same item and the
@@ -104,6 +134,20 @@ export function repeatOrder(order) {
 export function isSameOrder(a, b) {
   return a.item === b.item && a.qty === b.qty;
 }
+
+console.log("--- Task 4: same item and same qty ---");
+
+console.log(
+  isSameOrder({ item: "Bun maska", qty: 2 }, { item: "Bun maska", qty: 2 }),
+); // true
+console.log(
+  isSameOrder({ item: "Bun maska", qty: 2 }, { item: "Bun maska", qty: "2" }),
+); // false
+console.log(
+  isSameOrder({ item: "Bun maska", qty: 2 }, { item: "Masala chai", qty: 2 }),
+); // false
+
+console.log("\n");
 
 // Task 5: a deep copy of the stock
 //
@@ -124,3 +168,11 @@ export function isSameOrder(a, b) {
 export function snapshotStock(stock) {
   return structuredClone(stock);
 }
+
+console.log("--- Task 5: a deep copy of the stock ---");
+
+const stock1 = { masala: { kulhads: 50, ginger: 12 } };
+const stock2 = snapshotStock(stock1);
+console.log(stock2); // { masala: { kulhads: 50, ginger: 12 } }
+
+console.log("\n");
