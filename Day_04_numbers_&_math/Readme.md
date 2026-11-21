@@ -1,4 +1,4 @@
-# Chapter 3: Data types
+# Chapter 4. Numbers and math
 
 ## 1. splitBill: whole-rupee shares and what is left
 
