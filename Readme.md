@@ -6,12 +6,14 @@ A practical JavaScript learning challenge based on the Chai aur Code course by H
 
 The repository currently contains two chapters:
 
-| Chapter | Topic          | Concepts                                                                       |
-| ------- | -------------- | ------------------------------------------------------------------------------ |
-| 01      | Hello, Console | `console.log`, `console.warn`, `console.table`, `console.count`, and timers    |
-| 02      | Variables      | `let`, `const`, `var`, scope, mutation, hoisting, and the temporal dead zone   |
-| 03      | Data Types     | `typeof`, `null`, arrays, objects, deep copy,shallow copy, and equality checks |
-| 04      | Numbers & Math | `Math` methods, artithmetic, floating-point operations, and parsing            |
+| Chapter | Topic             | Concepts                                                                       |
+| ------- | ----------------- | ------------------------------------------------------------------------------ |
+| 01      | Hello, Console    | `console.log`, `console.warn`, `console.table`, `console.count`, and timers    |
+| 02      | Variables         | `let`, `const`, `var`, scope, mutation, hoisting, and the temporal dead zone   |
+| 03      | Data Types        | `typeof`, `null`, arrays, objects, deep copy,shallow copy, and equality checks |
+| 04      | Numbers & Math    | `Math` methods, artithmetic, floating-point operations, and parsing            |
+| 05      | Strings           | `string` , string methods, and string manipulation                             |
+| 06      | Template Literals | `template` literals, string interpolation, and multiline strings               |
 
 More chapters can be added as the challenge progresses.
 
@@ -29,6 +31,12 @@ More chapters can be added as the challenge progresses.
 │   ├── Readme.md
 │   └── script.js
 ├── Day_04_numbers_&_math/
+│   ├── Readme.md
+│   └── script.js
+├── Day_05_strings/
+│   ├── Readme.md
+│   └── script.js
+├── Day_06_template_literals/
 │   ├── Readme.md
 │   └── script.js
 └── Readme.md
@@ -63,8 +71,8 @@ Each chapter contains:
 - [x] Chapter 02 - Variables
 - [x] Chapter 03 - Data Types
 - [x] Chapter 04 - Numbers & Math
-- [ ] Chapter 05
-- [ ] Chapter 06
+- [x] Chapter 05 - Strings
+- [x] Chapter 06 - Template Literals
 - [ ] Chapter 07
 - [ ] Chapter 08
 - [ ] Chapter 09
