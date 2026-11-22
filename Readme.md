@@ -14,6 +14,7 @@ The repository currently contains two chapters:
 | 04      | Numbers & Math    | `Math` methods, artithmetic, floating-point operations, and parsing            |
 | 05      | Strings           | `string` , string methods, and string manipulation                             |
 | 06      | Template Literals | `template` literals, string interpolation, and multiline strings               |
+| 07      | Type Coercion     | `type coercion`, `==` vs `===`, and type conversion                            |
 
 More chapters can be added as the challenge progresses.
 
@@ -37,6 +38,9 @@ More chapters can be added as the challenge progresses.
 │   ├── Readme.md
 │   └── script.js
 ├── Day_06_template_literals/
+│   ├── Readme.md
+│   └── script.js
+├── Day_07_type_coercion/
 │   ├── Readme.md
 │   └── script.js
 └── Readme.md
@@ -73,7 +77,7 @@ Each chapter contains:
 - [x] Chapter 04 - Numbers & Math
 - [x] Chapter 05 - Strings
 - [x] Chapter 06 - Template Literals
-- [ ] Chapter 07
+- [x] Chapter 07 - Type Coercion
 - [ ] Chapter 08
 - [ ] Chapter 09
 - [ ] Chapter 10
