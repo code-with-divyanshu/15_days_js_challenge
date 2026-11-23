@@ -15,6 +15,7 @@ The repository currently contains two chapters:
 | 05      | Strings           | `string` , string methods, and string manipulation                             |
 | 06      | Template Literals | `template` literals, string interpolation, and multiline strings               |
 | 07      | Type Coercion     | `type coercion`, `==` vs `===`, and type conversion                            |
+| 08      | Truthy and Falsy  | `truthy` and `falsy` values, boolean conversion, and conditional checks        |
 
 More chapters can be added as the challenge progresses.
 
@@ -41,6 +42,9 @@ More chapters can be added as the challenge progresses.
 │   ├── Readme.md
 │   └── script.js
 ├── Day_07_type_coercion/
+│   ├── Readme.md
+│   └── script.js
+├── Day_08_truthy_&_falsy/
 │   ├── Readme.md
 │   └── script.js
 └── Readme.md
@@ -78,7 +82,7 @@ Each chapter contains:
 - [x] Chapter 05 - Strings
 - [x] Chapter 06 - Template Literals
 - [x] Chapter 07 - Type Coercion
-- [ ] Chapter 08
+- [x] Chapter 08 - Truthy and Falsy
 - [ ] Chapter 09
 - [ ] Chapter 10
 - [ ] Chapter 11
