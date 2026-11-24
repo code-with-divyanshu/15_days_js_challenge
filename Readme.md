@@ -6,16 +6,17 @@ A practical JavaScript learning challenge based on the Chai aur Code course by H
 
 The repository currently contains two chapters:
 
-| Chapter | Topic             | Concepts                                                                       |
-| ------- | ----------------- | ------------------------------------------------------------------------------ |
-| 01      | Hello, Console    | `console.log`, `console.warn`, `console.table`, `console.count`, and timers    |
-| 02      | Variables         | `let`, `const`, `var`, scope, mutation, hoisting, and the temporal dead zone   |
-| 03      | Data Types        | `typeof`, `null`, arrays, objects, deep copy,shallow copy, and equality checks |
-| 04      | Numbers & Math    | `Math` methods, artithmetic, floating-point operations, and parsing            |
-| 05      | Strings           | `string` , string methods, and string manipulation                             |
-| 06      | Template Literals | `template` literals, string interpolation, and multiline strings               |
-| 07      | Type Coercion     | `type coercion`, `==` vs `===`, and type conversion                            |
-| 08      | Truthy and Falsy  | `truthy` and `falsy` values, boolean conversion, and conditional checks        |
+| Chapter | Topic                    | Concepts                                                                       |
+| ------- | ------------------------ | ------------------------------------------------------------------------------ |
+| 01      | Hello, Console           | `console.log`, `console.warn`, `console.table`, `console.count`, and timers    |
+| 02      | Variables                | `let`, `const`, `var`, scope, mutation, hoisting, and the temporal dead zone   |
+| 03      | Data Types               | `typeof`, `null`, arrays, objects, deep copy,shallow copy, and equality checks |
+| 04      | Numbers & Math           | `Math` methods, artithmetic, floating-point operations, and parsing            |
+| 05      | Strings                  | `string` , string methods, and string manipulation                             |
+| 06      | Template Literals        | `template` literals, string interpolation, and multiline strings               |
+| 07      | Type Coercion            | `type coercion`, `==` vs `===`, and type conversion                            |
+| 08      | Truthy and Falsy         | `truthy` and `falsy` values, boolean conversion, and conditional checks        |
+| 09      | Null, Undefined, and NaN | `null`, `undefined`, `NaN`, and handling missing or invalid values             |
 
 More chapters can be added as the challenge progresses.
 
@@ -45,6 +46,9 @@ More chapters can be added as the challenge progresses.
 │   ├── Readme.md
 │   └── script.js
 ├── Day_08_truthy_&_falsy/
+│   ├── Readme.md
+│   └── script.js
+├── Day_09_null_undefined_&_NaN/
 │   ├── Readme.md
 │   └── script.js
 └── Readme.md
@@ -83,7 +87,7 @@ Each chapter contains:
 - [x] Chapter 06 - Template Literals
 - [x] Chapter 07 - Type Coercion
 - [x] Chapter 08 - Truthy and Falsy
-- [ ] Chapter 09
+- [x] Chapter 09 - Null, Undefined, and NaN
 - [ ] Chapter 10
 - [ ] Chapter 11
 - [ ] Chapter 12
