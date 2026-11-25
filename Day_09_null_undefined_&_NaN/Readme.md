@@ -15,7 +15,7 @@ Write cleanReading(reading). Return 'Not read yet' for undefined, 'No sensor' fo
 Write fillMissing(order). Return a new object with three keys: item (copied from the order), qty and note. A qty that is undefined (missing, or set to undefined) becomes 1, and a note that is undefined becomes ''. Every other value is kept as it is, so a qty of 0 stays 0 and a note set to null stays null.
 fillMissing({ item: 'Masala chai' }) gives { item: 'Masala chai', qty: 1, note: '' }. The order you are given must not change.
 
-## 5. `Interview` emptinessPredictions, NaN, isNaN and Object.is
+## 4. `Interview` emptinessPredictions, NaN, isNaN and Object.is
 
 Export emptinessPredictions, an array of ten values: what each expression in the comment above it gives, in the same order. Nine of them are true or false, and the typeof one is text, written as a string.
 The check works out the same ten expressions and compares.
