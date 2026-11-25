@@ -17,6 +17,7 @@ The repository currently contains two chapters:
 | 07      | Type Coercion            | `type coercion`, `==` vs `===`, and type conversion                            |
 | 08      | Truthy and Falsy         | `truthy` and `falsy` values, boolean conversion, and conditional checks        |
 | 09      | Null, Undefined, and NaN | `null`, `undefined`, `NaN`, and handling missing or invalid values             |
+| 10      | Array                    | `array` methods, array manipulation, and array iteration                       |
 
 More chapters can be added as the challenge progresses.
 
@@ -49,6 +50,9 @@ More chapters can be added as the challenge progresses.
 │   ├── Readme.md
 │   └── script.js
 ├── Day_09_null_undefined_&_NaN/
+│   ├── Readme.md
+│   └── script.js
+├── Day_10_array/
 │   ├── Readme.md
 │   └── script.js
 └── Readme.md
@@ -88,7 +92,7 @@ Each chapter contains:
 - [x] Chapter 07 - Type Coercion
 - [x] Chapter 08 - Truthy and Falsy
 - [x] Chapter 09 - Null, Undefined, and NaN
-- [ ] Chapter 10
+- [x] Chapter 10 - Array
 - [ ] Chapter 11
 - [ ] Chapter 12
 - [ ] Chapter 13
