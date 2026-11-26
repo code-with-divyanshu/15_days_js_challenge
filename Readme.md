@@ -18,6 +18,7 @@ The repository currently contains two chapters:
 | 08      | Truthy and Falsy         | `truthy` and `falsy` values, boolean conversion, and conditional checks        |
 | 09      | Null, Undefined, and NaN | `null`, `undefined`, `NaN`, and handling missing or invalid values             |
 | 10      | Array                    | `array` methods, array manipulation, and array iteration                       |
+| 11      | Array methods            | `array` methods, filter, map, reduce, and other array operations               |
 
 More chapters can be added as the challenge progresses.
 
@@ -53,6 +54,9 @@ More chapters can be added as the challenge progresses.
 │   ├── Readme.md
 │   └── script.js
 ├── Day_10_array/
+│   ├── Readme.md
+│   └── script.js
+├── Day_11_array_methods/
 │   ├── Readme.md
 │   └── script.js
 └── Readme.md
@@ -93,7 +97,7 @@ Each chapter contains:
 - [x] Chapter 08 - Truthy and Falsy
 - [x] Chapter 09 - Null, Undefined, and NaN
 - [x] Chapter 10 - Array
-- [ ] Chapter 11
+- [x] Chapter 11 - Array Methods
 - [ ] Chapter 12
 - [ ] Chapter 13
 - [ ] Chapter 14
