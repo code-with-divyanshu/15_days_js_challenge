@@ -19,6 +19,7 @@ The repository currently contains two chapters:
 | 09      | Null, Undefined, and NaN | `null`, `undefined`, `NaN`, and handling missing or invalid values             |
 | 10      | Array                    | `array` methods, array manipulation, and array iteration                       |
 | 11      | Array methods            | `array` methods, filter, map, reduce, and other array operations               |
+| 12      | Sorting and searching    | `sort`, `localeCompare`, `binary search`, and custom sorting                   |
 
 More chapters can be added as the challenge progresses.
 
@@ -57,6 +58,9 @@ More chapters can be added as the challenge progresses.
 │   ├── Readme.md
 │   └── script.js
 ├── Day_11_array_methods/
+│   ├── Readme.md
+│   └── script.js
+├── Day_12_sorting_&_searching/
 │   ├── Readme.md
 │   └── script.js
 └── Readme.md
@@ -98,7 +102,7 @@ Each chapter contains:
 - [x] Chapter 09 - Null, Undefined, and NaN
 - [x] Chapter 10 - Array
 - [x] Chapter 11 - Array Methods
-- [ ] Chapter 12
+- [x] Chapter 12 - Sorting and Searching
 - [ ] Chapter 13
 - [ ] Chapter 14
 - [ ] Chapter 15
