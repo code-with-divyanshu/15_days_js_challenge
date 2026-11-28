@@ -1,4 +1,4 @@
-# Chapter 10: Array
+# Chapter 10: Arrays
 
 ## 1. menuEnds: the first item, the last and the count
 
