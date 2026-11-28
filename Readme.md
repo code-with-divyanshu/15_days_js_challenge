@@ -17,9 +17,10 @@ The repository currently contains two chapters:
 | 07      | Type Coercion            | `type coercion`, `==` vs `===`, and type conversion                            |
 | 08      | Truthy and Falsy         | `truthy` and `falsy` values, boolean conversion, and conditional checks        |
 | 09      | Null, Undefined, and NaN | `null`, `undefined`, `NaN`, and handling missing or invalid values             |
-| 10      | Array                    | `array` methods, array manipulation, and array iteration                       |
+| 10      | Arrays                   | `arrays` methods, array manipulation, and array iteration                      |
 | 11      | Array methods            | `array` methods, filter, map, reduce, and other array operations               |
 | 12      | Sorting and searching    | `sort`, `localeCompare`, `binary search`, and custom sorting                   |
+| 13      | Objects                  | `objects`, object manipulation, and object iteration                           |
 
 More chapters can be added as the challenge progresses.
 
@@ -54,13 +55,16 @@ More chapters can be added as the challenge progresses.
 ├── Day_09_null_undefined_&_NaN/
 │   ├── Readme.md
 │   └── script.js
-├── Day_10_array/
+├── Day_10_arrays/
 │   ├── Readme.md
 │   └── script.js
 ├── Day_11_array_methods/
 │   ├── Readme.md
 │   └── script.js
 ├── Day_12_sorting_&_searching/
+│   ├── Readme.md
+│   └── script.js
+├── Day_13_objects/
 │   ├── Readme.md
 │   └── script.js
 └── Readme.md
@@ -100,10 +104,10 @@ Each chapter contains:
 - [x] Chapter 07 - Type Coercion
 - [x] Chapter 08 - Truthy and Falsy
 - [x] Chapter 09 - Null, Undefined, and NaN
-- [x] Chapter 10 - Array
+- [x] Chapter 10 - Arrays
 - [x] Chapter 11 - Array Methods
 - [x] Chapter 12 - Sorting and Searching
-- [ ] Chapter 13
+- [x] Chapter 13 - Objects
 - [ ] Chapter 14
 - [ ] Chapter 15
 
